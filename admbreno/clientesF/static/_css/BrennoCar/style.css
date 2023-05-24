@@ -12,7 +12,7 @@
     body{
         background-repeat: no-repeat;
         background-image: url(../../_images/BrennoCar/Car_Headlights_resize.png);
-        background-position: 50% 70px;
+        background-position: 50% 60px;
         background-size: contain;
         background-color: rgba(9,9,7, 1);
     }
@@ -66,10 +66,10 @@
         border-radius: 5px;
     }
     #id_username{
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
     #id_password{
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
     p{
         justify-content: center;
@@ -78,9 +78,8 @@
         margin-bottom: 0;
     }
     label{
-        justify-self: center;
         margin-bottom: 0;
-        margin-right: 10px;
+        margin-right: 5px;
         font-size: 16px;
         font-family: Montserrat, Robot, Verdana, Geneva, Tahoma, sans-serif;
         color: yellow;
@@ -120,76 +119,88 @@
         color: #CD5C5C;
     }
     #id_cnpj{
-        margin-right: 50px;
+        margin-right: 5px;
         width: 160px;
         text-align: right;
     }
     #id_cpf{
         margin-right: 10px;
-        width: 130px;
+        width: 120px;
         text-align: right;
     }
     #id_estado{
         padding-left: 5px;
-        margin-right: 40px;
+        margin-right: 5px;
+        width: 100px;
     }
+    
     #id_cidade{
         padding-left: 5px;
-        margin-right: 40px;
-        width: 200px;
+        margin-right: 5px;
+        width: 140px;
     }
     #id_endereco{
         padding-left: 5px;
-        margin-right: 210px;
-        width: 300px;
+        margin-right: 5px;
+        width: 180px;
     }
     #id_data_nascimento{
         padding-left: 5px;
-        margin-right: 320px;
-        width: 140px;
+        margin-right: 5px;
+        width: 100px;
     }
     #id_atividade, #id_segmento{
-        margin-right: 20px;
-        width: 180px;
+        margin-right: 5px;
+        width: 130px;
         text-align: right;
     }
     #id_nome,
     #id_bairro{
         padding-left: 5px;
-        margin-right: 150px;
-        width: 560px;
+        margin-right: 10px;
+        width: 180px;
+    }
+    #id_sobrenome{
+        padding-left: 5px;
+        margin-right: 10px;
+        width: 300px;
     }
     #id_profissao{
         padding-left: 5px;
         margin-right: 10px;
-        width: 230px;
+        width: 160px;
     }
     #id_contato{
         padding-left: 5px;
-        margin-right: 150px;
-        width: 260px;
+        margin-right: 15px;
+        width: 290px;
     }
-    #id_email, #id_site{
+    #id_email{
+        padding-left: 5px;
+        margin-right: 100px;
+        width: 230px;
+    }
+
+    #id_site{
         padding-left: 5px;
         margin-right: 20px;
-        width: 270px;
+        width: 230px;
     }
     #id_nome_fantasia, 
-    #id_razao_social,
-    #id_sobrenome{
+    #id_razao_social{
         padding-left: 5px;
-        margin-right: 120px;
-        width: 560px;
+        margin-right: 200px;
+        width: 530px;
     }
     #id_telefone{
         padding-left: 5px;
-        margin-right: 23px;
-        width: 140px;
+        margin-right: 5px;
+        width: 136px;
     }
     #id_celular{
         padding-left: 5px;
-        margin-right: 28px;
-        width: 140px;
+        margin-right: 5px;
+        width: 136px;
     }
     #id_cep{
         margin-right: 30px;
@@ -197,7 +208,7 @@
     }
     #id_uf {
         padding-left: 5px;
-        margin-right: 70px;
+        margin-right: 10px;
         width: 40px;
     }
     #id_ano, #id_placa{
@@ -403,13 +414,13 @@
         color: #FFFFFF;
     }
     form{
-        margin-top: 106px;
-        padding: 40px 55px;
+        margin-top: 100px;
+        padding: 30px 28px;
         border-radius: 10px;
         border: 2px solid #FF6347;
         margin-left: 20%;
-        width: 60%;
-        height: 510px;
+        width: 61%;
+        height: 490px;
     }
     form.consulta{
         margin-top: 48px;
