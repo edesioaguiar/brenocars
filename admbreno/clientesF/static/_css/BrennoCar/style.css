@@ -53,7 +53,7 @@
     
     small{
         font-size: 14px;
-        color: #f3e97a;
+        color: #f4f499;
     }
     li {
         text-align: center;
@@ -82,7 +82,8 @@
         margin-right: 5px;
         font-size: 16px;
         font-family: Montserrat, Robot, Verdana, Geneva, Tahoma, sans-serif;
-        color: yellow;
+        color: #f4f499;
+        text-align: center;
     }
     button.login{
         display: inline-grid;
@@ -227,8 +228,47 @@
         height: 36px;
         border-radius: 5px;
         padding-left: 5px;
-        width: 300px;
+        margin-right: 10px;
+        width: 150px;
+        margin-bottom: 10px;
     }
+    #id_veiculo, #id_valor{
+        height: 36px;
+        border-radius: 5px;
+        padding-left: 5px;
+        margin-right: 10px;
+        width: 100px;
+    }
+    #id_detalhes{
+        height: 36px;
+        border-radius: 5px;
+        padding-left: 5px;
+        margin-right: 10px;
+        width: 200px;
+    }
+    #id_descricao{
+        height: 36px;
+        border-radius: 5px;
+        padding-left: 5px;
+        margin-right: 10px;
+        width: 250px;
+    }
+    #id_data_entrega_day,
+    #id_data_entrega_month,
+    #id_data_entrega_year{
+        height: 36px;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 10px;
+        width: 86px;
+    }
+    /*#id_valor{
+        height: 36px;
+        border-radius: 5px;
+        padding-left: 5px;
+        margin-right: 10px;
+        width: 100px;
+    }*/
     #id_mensagem {
         padding-left: 5px;
         margin-right: 10px;
@@ -251,9 +291,9 @@
         text-align: center;
         width:142px;
     }
-    .navbar-nav{
+    /*.navbar-nav{
         margin-left: 300px;
-    }
+    }*/
     .navbar-expand-lg{
         border-radius: 0 0 20px 20px;
     }
@@ -264,6 +304,10 @@
         justify-content: center;
         font-size: 13px;
     }
+    .navbar-expand-lg>.container-fluid{
+        margin-top: 56px;
+    }
+    
     h2{
         margin-top: 50px;
         font-size: 22px;
@@ -287,9 +331,7 @@
         font-family: Montserrat, Roboto, Verdana, Geneva, Tahoma, sans-serif;
         color: rgb(255, 98, 0);
     }
-    .navbar-expand-lg>.container-fluid{
-        margin-top: 56px;
-    }
+    
     #logout{
         font-size: 14px;
         margin-top: -20px;
@@ -387,6 +429,20 @@
         background-color: green;
         color: #FFFFFF;
     }
+    .btn.btn-secondary{
+        height: 36px;
+        font-size: 14px;
+        padding: 5px 6px;
+        margin-left: 10px;
+        width: 170px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .btn-secondary:hover{
+        font-weight: 600;
+        background-color: red;
+        color: #FFFFFF;
+    }
     .btn.btn-warning{
         margin-left: -64px;
         font-size: 14px;
@@ -408,6 +464,8 @@
         border-radius: 5px;
         width: 170px;
         margin-top: 10px;
+        /*position: absolute;
+        text-align: center;*/
     }
     .Save:hover{
         background-color: red;
@@ -420,7 +478,7 @@
         border: 2px solid #FF6347;
         margin-left: 20%;
         width: 61%;
-        height: 490px;
+        height: 400px;
     }
     form.consulta{
         margin-top: 48px;
@@ -433,7 +491,7 @@
     form input{
         margin-bottom: 10px;
         border-radius: 5px;
-        padding: 5px;
+        padding: 3px;
     }
     #id_pesquisa_cf{
         width: 300px;
