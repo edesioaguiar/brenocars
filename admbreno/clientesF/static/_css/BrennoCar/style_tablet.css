@@ -1,0 +1,70 @@
+@media screen and
+    (max-width: 992px) {
+    tbody{
+        width: 100%;
+        font-size: 13px;
+        color: #FFFFFF;
+    }
+    a.logout{
+        display: none;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .navbar.container-fluid{
+        display: inline;
+    }
+    .container-fluid{
+        margin-top: 50px;
+    }
+    .logo-injecao-eletronica img{
+        display: none;
+    }  
+    h2{
+        display: none;
+    }
+    form{
+        margin-top: 100px;
+        padding: 20px 28px;
+        margin-left: 10%;
+        width: 81%;
+    }
+    form.consulta{
+        margin-top: 48px;
+    }
+    form input{
+        margin-bottom: 10px;
+        
+    }
+    .navbar-toggler{
+        margin-top: -50px;
+        float: right;
+        color: #FFFFFF;
+        border: none;
+    }
+    #navbarNav{
+        width: 10%;
+    }
+    .table{
+        margin-top: 100px;
+    }
+    .btn.btn-primary{
+        margin-top:50px;
+    }
+    /*footer{
+        display: none;
+    }*/
+    .bem-vindo{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .hora{
+        font-size: 12px;
+       
+    }
+    .copyrigth{
+        display: none;
+        /*font-size: 12px;
+        color: #FFFFFF;*/
+    }
+}
